@@ -31,6 +31,7 @@ This project posed a distinctive challenge by deviating from conventional approa
 - **Power BI Integration:**
   - Utilization of Power BI for comprehensive data analysis and visualization.
   - Tailoring Key Performance Indicators (KPIs) to meet the specific business requirements of the giant bookstore client.
+![PowerBI_Performance_Tracker](https://github.com/alm-safwat/galaxy_schema/assets/135442913/d7016f5e-ef28-4000-bd2c-48021bb429a8)
 
 ## Outcome
 
