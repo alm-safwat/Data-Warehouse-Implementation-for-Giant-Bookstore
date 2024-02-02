@@ -2,6 +2,9 @@
 
 I spearheaded a comprehensive data analysis initiative for a prominent giant bookstore client, with the objective of empowering data-driven decision-making. The existing Online Transaction Processing (OLTP) system of the client demanded a robust solution for extracting valuable business insights. In response, I meticulously designed and implemented a data warehouse, choosing a galaxy schema to adeptly manage two distinct fact tables—sales and order delivery status.
 
+![Ssms_D8rvRIpM1h](https://github.com/alm-safwat/galaxy_schema/assets/135442913/789487fc-0322-466e-9d67-fc2ccfc0fe26)
+
+
 ## Unique Challenge
 
 This project posed a distinctive challenge by deviating from conventional approaches, necessitating the utilization of a galaxy schema—an innovation from my previous experiences with star and snowflake schemas. Significantly, the order history fact table embraced an accumulated structure, capturing dates associated with six different order statuses: received, pending, in progress, canceled, returned, and delivered.
@@ -12,9 +15,15 @@ This project posed a distinctive challenge by deviating from conventional approa
   - Implementation of a galaxy schema to accommodate sales and order delivery status fact tables.
   - Adoption of an accumulated structure for the order history fact table.
 
+![dwh_galaxy_schema](https://github.com/alm-safwat/galaxy_schema/assets/135442913/e69fa57c-1bfb-4389-ad60-bb212848f750)
+
+
 - **ETL Pipeline Development:**
   - Creation of an Extract, Transform, Load (ETL) pipeline leveraging SQL Server Integration Services (SSIS).
   - Seamless transfer of data from diverse OLTP sources to the data warehouse.
+
+![fact_etl_data_flow](https://github.com/alm-safwat/galaxy_schema/assets/135442913/b6bbd323-c2dc-4cd2-aaa1-af2f57575e30)
+
 
 - **Dimension Management:**
   - Implementation of slowly changing dimensions to address dynamic changes in dimension attributes.
