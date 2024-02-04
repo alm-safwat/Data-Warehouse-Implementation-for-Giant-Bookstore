@@ -2,6 +2,7 @@
 
 I spearheaded a comprehensive data analysis initiative for a prominent giant bookstore client, with the objective of empowering data-driven decision-making. The existing Online Transaction Processing (OLTP) system of the client demanded a robust solution for extracting valuable business insights. In response, I meticulously designed and implemented a data warehouse, choosing a galaxy schema to adeptly manage two distinct fact tables—sales and order delivery status.
 
+
 ![Ssms_D8rvRIpM1h](https://github.com/alm-safwat/galaxy_schema/assets/135442913/789487fc-0322-466e-9d67-fc2ccfc0fe26)
 
 
@@ -15,12 +16,14 @@ This project posed a distinctive challenge by deviating from conventional approa
   - Implementation of a galaxy schema to accommodate sales and order delivery status fact tables.
   - Adoption of an accumulated structure for the order history fact table.
 
+
 ![dwh_galaxy_schema](https://github.com/alm-safwat/galaxy_schema/assets/135442913/e69fa57c-1bfb-4389-ad60-bb212848f750)
 
 
 - **ETL Pipeline Development:**
   - Creation of an Extract, Transform, Load (ETL) pipeline leveraging SQL Server Integration Services (SSIS).
   - Seamless transfer of data from diverse OLTP sources to the data warehouse.
+
 
 ![fact_etl_data_flow](https://github.com/alm-safwat/galaxy_schema/assets/135442913/b6bbd323-c2dc-4cd2-aaa1-af2f57575e30)
 
@@ -41,7 +44,9 @@ This project posed a distinctive challenge by deviating from conventional approa
   - Utilization of Power BI for comprehensive data analysis and visualization.
   - Tailoring Key Performance Indicators (KPIs) to meet the specific business requirements of the giant bookstore client.
     
-![PowerBI_Performance_Tracker](https://github.com/alm-safwat/galaxy_schema/assets/135442913/d7016f5e-ef28-4000-bd2c-48021bb429a8)
+
+![PBIDesktop_tRcN1vNHhT](https://github.com/alm-safwat/galaxy_schema/assets/135442913/6be16ba5-f281-4408-b325-777fb9fe1a9b)
+
 
 ## Outcome
 
